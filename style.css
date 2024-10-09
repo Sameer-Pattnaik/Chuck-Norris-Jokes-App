@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+h1{
+    color: green;
+}
+button{
+    background-color: black;
+    color: green;
+    border:2px solid green;
+    padding:10px;
+    width: 140px;
+    display: block;
+    text-align:center;
+}
+p{
+    min-height: 200px;
+    color: green;
+}
